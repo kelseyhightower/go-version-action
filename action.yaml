@@ -1,0 +1,8 @@
+name: 'Go Version'
+description: "Print the Go version"
+outputs:
+  version:
+    description: "The Go version"
+runs:
+  using: docker
+  image: 'Dockerfile'
